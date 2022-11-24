@@ -1,0 +1,14 @@
+h1 {
+    color: blue;
+    background-color: green;
+}
+
+#id_tirulo {
+    color: yellow;
+    background-color: red;
+}
+
+.clase_titulos {
+    color: coral;
+    background-color: black;
+}
