@@ -13,14 +13,27 @@
     <meta name="autor" content="Universidad Central del Ecuador">
     <!-- Pañabras clave-->
     <meta name="keywords" content="matricula, estudainte, nuevo">
+    <!-- Declaracion externa de estilos-->
+    <link rel="stylesheet" href="css/externos.css">
 </head>
 <body>
     <header></header>
     <nav></nav>
     <section>
-        <form action="#" method="">
-            <button>Oprimeme</button>
+        <form action="https://api.gob.ec/insertaEstudiante" method="post">
+            <label id="id_nombre" for="id_nombre_input">Nombre:</label>
+            <input id="id_nombre_input" type="text">
+            <label id="id_apellido" for="id_apellido_input">Apellido:</label>
+            <input id="id_apellido_input" type="text">
+            <label id="id_nacimiento" for="id_nacimiento_input">Fecha de nacimiento:</label>
+            <input id="id_nacimiento_input" type="date">
+            <label id="id_pass" for="id_pass_input">Password:</label>
+            <input id="id_pass_input" type="password">
+            <label id="id_mensaje" for="id_mensaje_input">Mensaje:</label>
+            <textarea name="" id="id_mensaje_input"></textarea>
+            <button id="id_guardar_button">Guardar</button>
         </form>
+        <a href="#"></a>
     </section>
     <footer></footer>
 </body>
