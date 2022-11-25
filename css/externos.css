@@ -1,3 +1,9 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
 h1 {
     color: blue;
     background-color: green;
@@ -11,4 +17,17 @@ h1 {
 .clase_titulos {
     color: coral;
     background-color: black;
+}
+
+img[src*="jpg"] {
+    width: 200px;
+    height: 300px;
+}
+
+label:hover {
+    color: white;
+}
+
+label:active {
+    color: blue;
 }
