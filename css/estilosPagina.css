@@ -25,3 +25,57 @@ body {
 .cabecera h1 {
     text-align: left;
 }
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 7px;
+    margin: 5px;
+}
+
+.menu {
+    background: burlywood;
+    border: 1px solid black;
+    text-align: left;
+}
+
+.formulario {
+    width: 900px;
+    border: double black;
+    margin: 15px auto;
+}
+
+.seccion {
+    margin: 20px;
+    width: 500px;
+    float: left;
+}
+
+.referencias {
+    width: 300px;
+    margin: 20px;
+    border: 1px solid black;
+    float: left;
+}
+
+article {
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 25px;
+    background: darkcyan;
+}
+
+article footer {
+    text-align: right;
+}
+
+.pie {
+    clear: both;
+}
+
+img {
+    width: 100%;
+    display: block;
+    margin: 20px auto;
+}
