@@ -53,9 +53,9 @@ body {
 }
 
 .referencias {
-    width: 300px;
-    margin: 20px;
-    border: 1px solid black;
+    width: 250px;
+    margin: 100px 10px;
+    /*border: 1px solid black;*/
     float: left;
 }
 
@@ -64,6 +64,12 @@ article {
     padding: 20px;
     margin-bottom: 25px;
     background: darkcyan;
+}
+
+blockquote {
+    border: 1px solid black;
+    width: 200px;
+    margin: 10px auto;
 }
 
 article footer {
