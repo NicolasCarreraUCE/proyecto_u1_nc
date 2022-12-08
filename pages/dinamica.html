@@ -6,6 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <script>
+        function cambiarColor() {
+            document.getElementById('ele1').style.backgroundColor = 'blue'
+        }
+        function cambiarColor2(color) {
+            document.getElementById('ele1').style.backgroundColor = color
+        }
+        function sumar(num1, num2) {
+            return num1 + num2
+        }
+        function resta(num1, num2) {
+            return num1 - num2
+        }
+    </script>
+
+    <script src="../js/funciones.js"></script>
 </head>
 
 <body>
@@ -14,8 +31,23 @@
     <section>
         <label id="ele1">Texto 1</label>
         <label id="ele2">Texto 2</label>
+        <img id="ele3" src="../img/imagen1.jpg" alt="No existe imagen1">
         <button onclick="document.getElementById('ele1').style.backgroundColor = 'blue'">Cambiar color</button>
-        <button onclick="document.getElementById('ele1').innerHTML = 'Modificaste el texto'">Cambiar texto</button>
+        <button onclick="cambiarColor()">Cambiar color 2</button>
+        <button onclick="cambiarColor2('yellow')">Cambiar color 2</button>
+        <button onclick="document.getElementById('ele2').innerHTML = 'Modificaste el texto'">Cambiar texto</button>
+        <button onclick="document.getElementById('ele3').src='../img/imagen2.jpg'">Cambiar img</button>
+        <input type="password" name="" id="pass1">
+        <button onclick="alert(document.getElementById('pass1').value)">Mostrar</button>
+        <button onclick="alert(sumar(3,5))">Sumar</button>
+        
+        <input type="number" id="num1">
+        <input type="number" id="num2">
+        <button onclick="alert(resta(document.getElementById('num1').value,document.getElementById('num2').value))">Resta</button>
+        <button onclick="alert(dividir(document.getElementById('num1').value,document.getElementById('num2').value))">Dividir</button>
+        <button onclick="document.getElementById('resu').innerHTML = dividir(document.getElementById('num1').value,document.getElementById('num2').value)">Dividir2</button>
+        
+        <label id="resu" for="">Resultado :</label>
     </section>
     <footer></footer>
 </body>
